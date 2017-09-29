@@ -1,0 +1,395 @@
+
+body {
+    font-family: Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    background-color: #ec008c;
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+
+}
+
+h2 {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    background-color: #ec008c;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    height: 40px;
+    margin: 0.5%;
+    text-align: center;
+}
+
+label {
+    color: white;
+}
+
+.subTitle {
+    margin-top: 4%;
+}
+
+i {
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+
+.title {
+    margin-top: 5%;
+}
+
+.content-title {
+    margin-top: 3%;
+    padding: 0;
+}
+
+.cercle {
+    background: #ec008c;
+    border-radius: 40px;
+    float: left;
+    height: 80px;
+    margin-left: 3%;
+    margin-right: 2%;
+    padding: 0;
+    width: 80px;
+    text-align: center;
+    padding-top: 1%;
+}
+
+img {
+    text-align: center;
+    width: 70%;
+}
+
+.date {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.space {
+    color: black;
+    font-size: 28px;
+}
+
+.colloc {
+    margin-top: 15%;
+    color: black;
+    font-size: 16px;
+
+}
+
+.logo {
+    background-image: url('/views/images/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+    margin-bottom: 5%;
+}
+
+.picto {
+    background-image: url('/views/images/picto.png');
+    height: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 0px;
+}
+
+.container-fluid {
+    background-color: #373737;
+    margin-top: 0px;
+    height: 400px;
+}
+
+button {
+    background-color: #ec008c;
+    border: 2px solid #ec008c;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    margin-bottom: 100px;
+    margin-left: 25%;
+    width: 200px;
+}
+
+.form {
+    margin-top: 8%;
+}
+
+.blockFinal {
+    height: 200px;
+}
+
+.firstLabel {
+    margin-top: 7%;
+}
+
+.formTitle {
+    margin-top: 5%;
+}
+
+.intra {
+    /*margin-left:15%;*/
+    display: block;
+}
+
+.validation {
+    margin-bottom: 200px;
+}
+
+spec > .retrait {
+    margin-top: 20px;
+}
+
+form {
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-device-width: 767px) {
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        padding-top: 3%;
+        margin-top: 3%;
+        font-size: 20px;
+    }
+
+    .cercle {
+        border-radius: 25px;
+        height: 50px;
+        margin-top: 3%;
+        width: 50px;
+    }
+
+    img {
+        margin-top: 15%;
+        width: 60%;
+    }
+
+    .infos {
+        padding-left: 25%;
+    }
+
+    .date {
+        font-size: 20px;
+    }
+
+    .space {
+        font-size: 20px;
+
+    }
+
+    .colloc {
+        font-size: 12px;
+    }
+
+    .picto {
+        height: 96px;
+        margin-top: 16px;
+    }
+
+    .text {
+        margin-top: 5%;
+    }
+
+    .validation {
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    button {
+        margin: auto;
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-device-width: 768px) {
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        padding-top: 3%;
+        margin-top: 3%;
+        font-size: 20px;
+    }
+
+    .cercle {
+        border-radius: 25px;
+        height: 50px;
+        width: 50px;
+        margin-left: 20%;
+
+    }
+
+    img {
+
+        width: 60%;
+    }
+
+    .infos {
+        padding-left: 5%;
+    }
+
+    .date {
+        font-size: 26px;
+    }
+
+    .space {
+        font-size: 22px;
+        padding-left: 5%;
+
+    }
+
+    .colloc {
+        font-size: 14px;
+        margin-left: 35%;
+        margin-bottom: 0px;
+    }
+
+    .logo {
+        margin-left: 25%;
+    }
+
+    .picto {
+        margin-top: 60px;
+        height: 96px;
+        margin-right: 25%;
+    }
+
+    .text {
+        margin-top: 4%;
+    }
+
+    .textsize {
+        font-size: 20px;
+        margin-left: 5%;
+    }
+
+    .validation {
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    button {
+        margin: auto;
+        width: 80%;
+    }
+
+    .retrait {
+        margin: auto;
+        width: 50%;
+    }
+
+    .spec {
+        margin-top: 8px;
+    }
+
+    .spec > .retrait {
+        padding-top: 8px;
+    }
+
+    .form > h3 {
+        width: 50%;
+        margin: auto;
+        padding-top: 8px;
+    }
+
+}
+
+@media screen and (min-device-width: 992px) {
+
+    .colloc {
+        margin-left: 0px;
+        margin-top: 20%;
+    }
+
+    .logo {
+        margin-left: 0px;
+
+    }
+
+    .retrait {
+        margin: auto;
+        width: 100%;
+    }
+
+    .spec {
+        margin-top: 8px;
+    }
+
+    .textsize {
+        font-size: 20px;
+        margin-left: 3%;
+    }
+
+    .formTitle {
+        margin-top: 5%;
+        width: 50%;
+    }
+
+    button {
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-device-width: 1200px) {
+
+    .textsize {
+        font-size: 20px;
+        margin-left: 12%;
+        margin-right: 1%;
+
+    }
+
+    .text {
+        padding-top: 20px;
+
+    }
+
+    .retrait {
+        margin: auto;
+        width: 100%;
+    }
+
+    .specAround :nth-child(3n) {
+        padding-top: 8px;
+    }
+
+    .inscriptions {
+        font-size: 18px;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+}
